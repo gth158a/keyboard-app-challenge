@@ -8,11 +8,12 @@ class Main(QtWidgets.QMainWindow, QtWidgets.QWidget):
         QtWidgets.QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.key_press()
+        self.code_of_last_pressed_key = 63
 
-    def key_press(self):
-        self.ui.text_user.grabKeyboard()
-        print(str(self.ui.text_user.keyPressEvent()))
+    def keyPressEvent(self, event):
+        self.code_of_last_pressed_key = event.key()
+        print(self.code_of_last_pressed_key)
+        self.update()
 
 
 if __name__ == "__main__":
