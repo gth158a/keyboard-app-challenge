@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>1180</width>
-    <height>474</height>
+    <height>468</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Keyboard Challenge</string>
   </property>
   <property name="styleSheet">
    <string notr="true">#MainWindow {
@@ -228,6 +228,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_d">
+          <property name="styleSheet">
+           <string notr="true">#key_d {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_d:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_d:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_d:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>d</string>
           </property>
@@ -235,6 +265,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_f">
+          <property name="styleSheet">
+           <string notr="true">#key_f {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_f:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_f:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_f:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>f</string>
           </property>
@@ -242,6 +302,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_g">
+          <property name="styleSheet">
+           <string notr="true">#key_g {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_g:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_g:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_g:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>g</string>
           </property>
@@ -249,6 +339,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_h">
+          <property name="styleSheet">
+           <string notr="true">#key_h {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_h:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_h:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_h:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>h</string>
           </property>
@@ -256,6 +376,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_j">
+          <property name="styleSheet">
+           <string notr="true">#key_j {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_j:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_j:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_j:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>j</string>
           </property>
@@ -263,6 +413,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_k">
+          <property name="styleSheet">
+           <string notr="true">#key_k {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_k:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_k:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_k:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>k</string>
           </property>
@@ -409,15 +589,8 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_2">
-          <property name="text">
-           <string>2</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QPushButton" name="key_3">
           <property name="styleSheet">
-           <string notr="true">#key_3 {
+           <string notr="true">#key_2 {
     background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #008A8A, stop:1 #33A1A1);
     border: 1px solid gray;
     font: 20px;
@@ -428,19 +601,56 @@ QLabel {
     max-height: 200;
 }
 
-#key_3:pressed {
+#key_2:pressed {
     background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #33A1A1, stop:1 #33A1A1);
     border-style: outset;
     border-width: 4px;
     border-color: red;
 }
 
-#key_3:hover {
+#key_2:hover {
   background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #33A1A1, stop:1 #33A1A1);
 }
 
-#key_3:checked {
+#key_2:checked {
     background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #33A1A1, stop:1 #33A1A1);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="key_3">
+          <property name="styleSheet">
+           <string notr="true">#key_3 {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_3:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_3:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_3:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
     border-style: outset;
     border-width: 4px;
     border-color: red;
@@ -453,6 +663,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_4">
+          <property name="styleSheet">
+           <string notr="true">#key_4 {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_4:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_4:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_4:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>4</string>
           </property>
@@ -460,6 +700,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_5">
+          <property name="styleSheet">
+           <string notr="true">#key_5 {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_5:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_5:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_5:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>5</string>
           </property>
@@ -467,6 +737,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_6">
+          <property name="styleSheet">
+           <string notr="true">#key_6 {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_6:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_6:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_6:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>6</string>
           </property>
@@ -474,6 +774,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_7">
+          <property name="styleSheet">
+           <string notr="true">#key_7 {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_7:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_7:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_7:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>7</string>
           </property>
@@ -481,6 +811,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_8">
+          <property name="styleSheet">
+           <string notr="true">#key_8 {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_8:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_8:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_8:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>8</string>
           </property>
@@ -671,6 +1031,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_e">
+          <property name="styleSheet">
+           <string notr="true">#key_e {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_e:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_e:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_e:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>e</string>
           </property>
@@ -678,6 +1068,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_r">
+          <property name="styleSheet">
+           <string notr="true">#key_r {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_r:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_r:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_r:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>r</string>
           </property>
@@ -685,6 +1105,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_t">
+          <property name="styleSheet">
+           <string notr="true">#key_t {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_t:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_t:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_t:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>t</string>
           </property>
@@ -692,6 +1142,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_y">
+          <property name="styleSheet">
+           <string notr="true">#key_y {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_y:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_y:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_y:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>y</string>
           </property>
@@ -699,6 +1179,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_u">
+          <property name="styleSheet">
+           <string notr="true">#key_u {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_u:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_u:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_u:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>u</string>
           </property>
@@ -706,6 +1216,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_i">
+          <property name="styleSheet">
+           <string notr="true">#key_i {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_i:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_i:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_i:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>i</string>
           </property>
@@ -896,6 +1436,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_c">
+          <property name="styleSheet">
+           <string notr="true">#key_c {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_c:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_c:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_c:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>c</string>
           </property>
@@ -903,6 +1473,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_v">
+          <property name="styleSheet">
+           <string notr="true">#key_v {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_v:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_v:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_v:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>v</string>
           </property>
@@ -910,6 +1510,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_b">
+          <property name="styleSheet">
+           <string notr="true">#key_b {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FF9900, stop:1 #FFAD33);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_b:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_b:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+}
+
+#key_b:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFB547, stop:1 #FFAD33);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>b</string>
           </property>
@@ -917,6 +1547,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_n">
+          <property name="styleSheet">
+           <string notr="true">#key_n {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_n:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_n:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_n:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>n</string>
           </property>
@@ -924,6 +1584,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_m">
+          <property name="styleSheet">
+           <string notr="true">#key_m {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #660066, stop:1 #853385);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_m:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_m:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+}
+
+#key_m:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #782E78, stop:1 #853385);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>m</string>
           </property>
@@ -931,6 +1621,36 @@ QLabel {
         </item>
         <item>
          <widget class="QPushButton" name="key_comma">
+          <property name="styleSheet">
+           <string notr="true">#key_comma {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #E64848, stop:1 #EB6D6D);
+    border: 1px solid gray;
+    font: 20px;
+    padding: 6px;
+    min-width: 70;
+    min-height: 70;
+    max-width: 200;
+    max-height: 200;
+}
+
+#key_comma:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}
+
+#key_comma:hover {
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+}
+
+#key_comma:checked {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #ED7C7C, stop:1 #EB6D6D);
+    border-style: outset;
+    border-width: 4px;
+    border-color: red;
+}</string>
+          </property>
           <property name="text">
            <string>,</string>
           </property>
